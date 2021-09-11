@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="profile_pict.jpg">
 
-Hi! I am Marta Marchiori Manerba (she/her), Master's student of <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>, at University of Pisa in Italy :) 
+Hi! I am Marta Marchiori Manerba (she/her), Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>, at University of Pisa in Italy :) 
 
 During my studies, I explored the relation between technology and human rights. I work on Fairness and Explainability in Natural Language Processing, focusing on digital discrimination and algorithmic biases. I hold a Bachelor’s Degree in Digital Humanities from the University of Pisa, during which I developed a strong in interest in hate speech detection towards minorities in online discourse.
 
@@ -16,17 +16,18 @@ NLP; XAI; Fairness in ML; Algorithmic bias; Algorithmic Auditing; ML Evaluation;
 
 ## Education summary and academic experiences
 
-*Full version in CV (with all the links)*
-
 Year | Institution | Description
 -----|--------------------------------------------------------------------------------------|--------------------------------------------
-2021 | Knowledge Discovery and Data Mining Laboratory: Ethical, Trustworthy, Interactive AI, with Dr Riccardo Guidotti | On-going Master’s thesis project within the field of Explainable Artificial Intelligence (XAI)
+2021 | University of Pisa | Master's Degree in Digital Humanities - Language Technologies: Thesis project on Fairness Auditing in Abusive Language Detection Systems carried out in the field of Explainability and Fairness in ML  
 2020 | Fondazione Bruno Kessler, Digital Humanities group | Traineeship on Fairness analysis for abusive language detection systems detecting unintended models biases
 2020 | University of Pisa | Academic Tutor of the course Programming and Theoretical Fundamentals
-2020 | University of Pisa | On-going Master's Degree in Digital Humanities: Language Technologies
 2019 | University of Pisa | Bachelor's Degree in Digital Humanities: Thesis project carried out in the field of Assistive Technology for Education
 
-## Publications and academic writing 
+## Publications
+
+* Marta Marchiori Manerba and Sara Tonelli. <a href="https://aclanthology.org/2021.woah-1.9/" target="_blank">Fine-Grained Fairness Analysis of Abusive Language Detection Systems with CheckList</a>, Workshop on Online Abuse and Harms (<a href="https://www.workshopononlineabuse.com/home" target="_blank">5th WOAH!</a>), 2021
+
+## Research Blog Articles  
 
 * I wrote a post on the blog of Digital Humanities Group at FBK, titled <a href="https://dh.fbk.eu/2021/02/discriminazioni-algoritmiche-tra-pregiudizi-umani-e-decisioni-automatiche/" target="_blank">Algorithmic discrimination, between human biases and automatic decisions</a>, at the end of the internship there. It was really a chance to refocus and discover how passionate I am about these topics (it's in Italian, sooner or later I will translate it)
 
