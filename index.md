@@ -30,6 +30,7 @@ Year | Institution | Description
 ## Research Blog Articles  
 
 * I wrote a post on the blog of Digital Humanities Group at FBK, titled <a href="https://dh.fbk.eu/2021/02/discriminazioni-algoritmiche-tra-pregiudizi-umani-e-decisioni-automatiche/" target="_blank">Algorithmic discrimination, between human biases and automatic decisions</a>, at the end of the internship there. It was really a chance to refocus and discover how passionate I am about these topics (it's in Italian, sooner or later I will translate it)
+* <a href="https://dh.fbk.eu/2021/09/with-great-computing-power-comes-great-responsibility-direzioni-potenzialita-e-rischi-della-green-ai/" target="_blank">“With great computing power comes great responsibility”: direzioni, potenzialità e rischi della Green AI</a>. In this very hot summer I am starting to explore the relationship between environment and technology, or as Floridi would say: the marriage of the green with the blue. I am ready to face this revolution! Take-away message: Nothing new: as always, AI/ML systems are neither THE nor the ONLY solution to the problem. ML systems + human intention to build a more sustainable future = could work :) 
 
 ---
 
