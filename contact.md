@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: martamarchiori96@gmail.com
+* Email: martamarchiori96[at]gmail.com
 
 ---
 
