@@ -40,6 +40,11 @@ Nov. 2021 - ongoing | University of Pisa | PhD in AI
 ---
 
 ## Courses, Seminars, Workshops
+**TO BE UPDATED** 
+
+*As partecipant*
+* AIES-2022
+* LREC-2022 
 
 *As audience*
 
