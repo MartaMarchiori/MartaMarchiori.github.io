@@ -3,13 +3,13 @@ layout: default
 is_contact: true
 ---
 
-* Email: martamarchiori96 [at] gmail.com
+* Email: marta.marchiori[at]phd.unipi.it
 
 ---
 
 ## Based at
 
-> Livorno
+> Pisa
 >
 > Italy
 
