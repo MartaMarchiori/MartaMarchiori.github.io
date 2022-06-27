@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-## Academic projects 
+## Master's Projects 
 
 *This page is under development*
 
