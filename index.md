@@ -4,11 +4,11 @@ layout: default
 
 ## About
 
-<img class="profile-picture" src="profile_pict.jpg">
+<img class="profile-picture" src="profile_pict.png">
 
-Hi! I am Marta Marchiori Manerba (she/her), Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>, at University of Pisa in Italy :) 
+Hi! 🎈 I am Marta Marchiori Manerba (she/her), Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>, at University of Pisa in Italy :) Currently I am a Ph.D. candidate in AI within the national PhD Programme under the area <a href="https://phd-ai-society.di.unipi.it/" target="_blank">AI & Society</a> 🤖   
 
-During my studies, I explored the relation between technology and human rights. I work on Fairness and Explainability in Natural Language Processing, focusing on digital discrimination and algorithmic biases. I hold a Bachelor’s Degree in Digital Humanities from the University of Pisa, during which I developed a strong in interest in hate speech detection towards minorities in online discourse.
+During my studies, I explored the relationship between technology and human rights. I work on Fairness and Explainability in Natural Language Processing, focusing on digital discrimination and algorithmic biases. I hold a Bachelor’s Degree in Digital Humanities from the University of Pisa, during which I developed a strong interest in hate speech detection towards minorities in online discourse.
 
 ## Research Interests
 
@@ -18,6 +18,7 @@ NLP; XAI; Fairness in ML; Algorithmic bias; Algorithmic Auditing; ML Evaluation;
 
 Year | Institution | Description
 -----|--------------------------------------------------------------------------------------|--------------------------------------------
+Nov. 2021 - ongoing | University of Pisa | PhD in AI  
 2021 | University of Pisa | Master's Degree in Digital Humanities - Language Technologies: Thesis project on Fairness Auditing in Abusive Language Detection Systems carried out in the field of Explainability and Fairness in ML  
 2020 | Fondazione Bruno Kessler, Digital Humanities group | Traineeship on Fairness analysis for abusive language detection systems detecting unintended models biases
 2020 | University of Pisa | Academic Tutor of the course Programming and Theoretical Fundamentals
@@ -25,6 +26,10 @@ Year | Institution | Description
 
 ## Publications
 
+* Investigating Debiasing Effects on Classification and Explanation Approaches (AIES 2022) 
+* <a href="http://www.lrec-conf.org/proceedings/lrec2022/workshops/NLPerspectives/pdf/2022.nlperspectives-1.4.pdf" target="_blank">Bias Discovery Within Human Raters: A Case Study of the Jigsaw Dataset</a> (NLPerspectives @LREC2022)
+* <a href="https://aclanthology.org/2022.ltedi-1.46/" target="_blank">When Hope and Hate Collide (LT-EDI @ACL2022)</a>: Homophobia/Transphobia Detection in social media comments Hope Speech Detection for Equality, Diversity, and Inclusion
+* <a href="https://ieeexplore.ieee.org/abstract/document/9750356" target="_blank">FairShades: Fairness Auditing via Explainability in ALDS</a> (IEEE CogMI 2021) 
 * Marta Marchiori Manerba and Sara Tonelli. <a href="https://aclanthology.org/2021.woah-1.9/" target="_blank">Fine-Grained Fairness Analysis of Abusive Language Detection Systems with CheckList</a>, Workshop on Online Abuse and Harms (<a href="https://www.workshopononlineabuse.com/home" target="_blank">5th WOAH!</a>), 2021
 
 ## Research Blog Articles  
