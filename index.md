@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-<img class="profile-picture" src="profile_pict.jpg">
+<img class="profile-picture" src="profile_pict.png">
 
 Hi! 🎈 I am Marta Marchiori Manerba (she/her), Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>, at University of Pisa in Italy :) Currently I am a Ph.D. candidate in AI within the national PhD Programme under the area <a href="https://phd-ai-society.di.unipi.it/" target="_blank">AI & Society</a> 🤖   
 
