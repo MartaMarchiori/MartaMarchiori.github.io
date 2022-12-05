@@ -10,7 +10,7 @@ Hi! 🎈 I am Marta Marchiori Manerba (she/her), Graduate student in <a href="ht
 
 During my studies, I explored the relationship between technology and human rights. I work on Fairness and Explainability in Natural Language Processing, focusing on digital discrimination and algorithmic biases. I hold a Bachelor’s Degree in Digital Humanities from the University of Pisa, during which I developed a strong interest in hate speech detection towards minorities in online discourse.
 
-**Research Interests**: NLP; XAI; Fairness in ML; Algorithmic bias; Algorithmic Auditing; ML Evaluation; Data awareness; Digital Discrimination; Intersectionality; Hate Speech Detection; Abusive Language Detection Systems
+Research Interests: NLP; XAI; Fairness in ML; Algorithmic bias; Algorithmic Auditing; ML Evaluation; Data awareness; Digital Discrimination; Intersectionality; Hate Speech Detection; Abusive Language Detection Systems
 
 ## Publications
 
