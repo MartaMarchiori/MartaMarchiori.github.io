@@ -10,14 +10,12 @@ Hi! 🎈 I am Marta Marchiori Manerba (she/her), Graduate student in <a href="ht
 
 During my studies, I explored the relationship between technology and human rights. I work on Fairness and Explainability in Natural Language Processing, focusing on digital discrimination and algorithmic biases. I hold a Bachelor’s Degree in Digital Humanities from the University of Pisa, during which I developed a strong interest in hate speech detection towards minorities in online discourse.
 
-### Research Interests
-
-NLP; XAI; Fairness in ML; Algorithmic bias; Algorithmic Auditing; ML Evaluation; Data awareness; Digital Discrimination; Intersectionality; Hate Speech Detection; Abusive Language Detection Systems
+**Research Interests**: NLP; XAI; Fairness in ML; Algorithmic bias; Algorithmic Auditing; ML Evaluation; Data awareness; Digital Discrimination; Intersectionality; Hate Speech Detection; Abusive Language Detection Systems
 
 ## Publications
 
 * Marta Marchiori Manerba and Virginia Morini. <a href="" target="_blank">Exposing Racial Dialect Bias in Abusive Language Detection: Can Explainability Play a Role?</a> (<a href="https://kdd.isti.cnr.it/xkdd2022/" target="_blank">XKDD</a>, @ECML-PKDD2022)
-* Marta Marchiori Manerba, Riccardo Guidotti, Lucia Passaro, Salvatore Ruggieri. <a href="http://www.lrec-conf.org/proceedings/lrec2022/workshops/NLPerspectives/pdf/2022.nlperspectives-1.4.pdf" target="_blank">Bias Discovery Within Human Raters: A Case Study of the Jigsaw Dataset</a> (<a href="https://nlperspectives.di.unito.it/" target="_blank">NLPerspectives, @LREC2022)
+* Marta Marchiori Manerba, Riccardo Guidotti, Lucia Passaro, Salvatore Ruggieri. <a href="http://www.lrec-conf.org/proceedings/lrec2022/workshops/NLPerspectives/pdf/2022.nlperspectives-1.4.pdf" target="_blank">Bias Discovery Within Human Raters: A Case Study of the Jigsaw Dataset</a> (<a href="https://nlperspectives.di.unito.it/" target="_blank">NLPerspectives</a>, @LREC2022)
 * Arianna Muti, Marta Marchiori Manerba, Katerina Korre, and Alberto Barrón-Cedeño. <a href="https://aclanthology.org/2022.ltedi-1.46/" target="_blank">LeaningTower@LT-EDI-ACL2022: When Hope and Hate Collide</a> (<a href="https://sites.google.com/view/lt-edi-2022/home" target="_blank">LT-EDI</a>, @ACL2022)
 * Marta Marchiori Manerba and Riccardo Guidotti. <a href="https://dl.acm.org/doi/pdf/10.1145/3514094.3534170" target="_blank">Investigating Debiasing Effects on Classification and Explanation Approaches</a> (<a href="https://www.aies-conference.com/2022/" target="_blank">AIES</a>, 2022) 
 * Marta Marchiori Manerba and Riccardo Guidotti. <a href="https://ieeexplore.ieee.org/abstract/document/9750356" target="_blank">FairShades: Fairness Auditing via Explainability in ALDS</a> (<a href="http://www.sis.pitt.edu/lersais/conference/cogmi/2021/" target="_blank">IEEE CogMI</a>, 2021) Best Paper Award 🎉 
