@@ -7,7 +7,7 @@ is_contact: true
 
 ---
 
-## Based at
+## Based in
 
 > Pisa
 >
