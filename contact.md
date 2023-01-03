@@ -17,9 +17,8 @@ is_contact: true
 
 ## Social
 
-1. <a href="https://www.linkedin.com/in/marta-marchiori-manerba/" target="_blank">LinkedIn</a>
-3. <a href="https://twitter.com/Marta_Marchiori" target="_blank">Twitter</a>
-4. <a href="https://www.facebook.com/marta.b.marchiori/" target="_blank">Facebook</a>
+1. <a href="https://twitter.com/Marta_Marchiori" target="_blank">Twitter</a>
+2. <a href="https://www.linkedin.com/in/marta-marchiori-manerba/" target="_blank">LinkedIn</a>
 
 ---
 
