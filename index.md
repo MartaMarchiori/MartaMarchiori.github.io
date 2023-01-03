@@ -14,7 +14,7 @@ Research Interests: NLP; Responsible Language Technologies; Human-Centered AI; E
 
 ## Publications
 
-* Marta Marchiori Manerba and Virginia Morini. <a href="" target="_blank">Exposing Racial Dialect Bias in Abusive Language Detection: Can Explainability Play a Role?</a> (<a href="https://kdd.isti.cnr.it/xkdd2022/" target="_blank">XKDD</a>, @ECML-PKDD2022)
+* Marta Marchiori Manerba and Virginia Morini. <a href="https://kdd.isti.cnr.it/xkdd2022/papers/XKDD_2022_paper_0378.pdf" target="_blank">Exposing Racial Dialect Bias in Abusive Language Detection: Can Explainability Play a Role?</a> (<a href="https://kdd.isti.cnr.it/xkdd2022/" target="_blank">XKDD</a>, @ECML-PKDD2022)
 * Marta Marchiori Manerba, Riccardo Guidotti, Lucia Passaro, Salvatore Ruggieri. <a href="http://www.lrec-conf.org/proceedings/lrec2022/workshops/NLPerspectives/pdf/2022.nlperspectives-1.4.pdf" target="_blank">Bias Discovery Within Human Raters: A Case Study of the Jigsaw Dataset</a> (<a href="https://nlperspectives.di.unito.it/" target="_blank">NLPerspectives</a>, @LREC2022)
 * Arianna Muti, Marta Marchiori Manerba, Katerina Korre, and Alberto Barrón-Cedeño. <a href="https://aclanthology.org/2022.ltedi-1.46/" target="_blank">LeaningTower@LT-EDI-ACL2022: When Hope and Hate Collide</a> (<a href="https://sites.google.com/view/lt-edi-2022/home" target="_blank">LT-EDI</a>, @ACL2022)
 * Marta Marchiori Manerba and Riccardo Guidotti. <a href="https://dl.acm.org/doi/pdf/10.1145/3514094.3534170" target="_blank">Investigating Debiasing Effects on Classification and Explanation Approaches</a> (<a href="https://www.aies-conference.com/2022/" target="_blank">AIES</a>, 2022) 
