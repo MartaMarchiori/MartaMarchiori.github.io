@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About \# currently under updating
+## About \# under maintenance 
 
 <img class="profile-picture" src="profile_pict.png">
 
