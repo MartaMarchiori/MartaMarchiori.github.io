@@ -23,10 +23,10 @@ Research Interests: NLP; Responsible Language Technologies; Human-Centered AI; E
 
 * <a href="https://www.ajl.org/about" target="_blank">Algorithmic Justice League</a>
 * <a href="https://www.masakhane.io/" target="_blank">Masakhane</a>
-* <a href="https://www.turing.ac.uk/research/data-ethics" target="_blank">Data ethics</a> at The Alan Turing Institute
-* <a href="https://digitalethicslab.oii.ox.ac.uk/" target="_blank">Digital Ethics Lab</a>: Every Bit as Good
-* <a href="https://www.radicalai.org/" target="_blank">The Radical AI Podcast</a>
-* <a href="https://www.skynettoday.com/" target="_blank">Skynet Today</a>: Putting AI News In Perspective
-* <a href="https://algorithmwatch.org/en/" target="_blank">AlgorithmWatch</a>
+* <a href="https://www.turing.ac.uk/research/data-ethics" target="_blank">Data Ethics Lab</a> 
+* <a href="https://digitalethicslab.oii.ox.ac.uk/" target="_blank">Digital Ethics Lab</a>
+* <a href="https://www.radicalai.org/" target="_blank">Radical AI Podcast</a>
+* <a href="https://www.skynettoday.com/" target="_blank">Skynet Today</a>
+* <a href="https://algorithmwatch.org/en/" target="_blank">Algorithm Watch</a>
 
 > growth is a process - Rupi Kaur
