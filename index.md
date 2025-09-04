@@ -8,7 +8,7 @@ layout: default
 
 Hi! 🎈 I am Marta Marchiori Manerba, she/her :)
 
-I hold a Ph.D. in AI, which I obtained at the <a href="https://di.unipi.it/en/" target="_blank"CS Department</a> of the University of Pisa (Italy). The Ph.D. was conducted within the national programme under the area <a href="https://phd-ai-society.di.unipi.it/" target="_blank">AI & Society</a> 🤖 Before that, I was a Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>. 
+I hold a Ph.D. in AI, which I obtained at the <a href="https://di.unipi.it/en/" target="_blank">CS Department</a> of the University of Pisa (Italy). The Ph.D. was conducted within the national programme under the area <a href="https://phd-ai-society.di.unipi.it/" target="_blank">AI & Society</a> 🤖 Before that, I was a Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank">Digital Humanities - Language Technologies</a>. 
 
 During my studies, I developed a strong interest in hate speech detection towards minorities in online discourse. My Ph.D. thesis explored the intersection of Fairness and Explainability in Natural Language Processing, focusing on digital discrimination and algorithmic biases. 
 
