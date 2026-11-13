@@ -2,23 +2,13 @@
  * Customization Variables
  */
 
-// Colours
-$bg:        #f7f6f2;   // warm paper white
-$ink:       #1d1d1b;   // main text
-$muted:     #6c6b66;   // secondary text
-$rule:      #dedcd5;   // hairlines
-$accent:    #3f5d37;   // deep green (links, highlights)
-$accent-soft: #e6ebe1;
+$accent: #56C1B6;
+$image-size: 85px;
 
-// Type
-$serif: "Newsreader", "Iowan Old Style", Georgia, serif;
-$sans:  "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+/*
+ * Build Variables, don't touch
+ */
 
-// Layout
-$max-width: 1040px;   // header, footer, hero
-$label-col: 200px;    // left column with section labels
-$gutter:    clamp(20px, 5vw, 48px);
-
-// Breakpoints
-$bp-medium: 820px;
-$bp-small:  560px;
+$max-width: 700px;
+$med-width: 600px;
+$small-width: 480px;

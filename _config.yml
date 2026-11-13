@@ -1,19 +1,11 @@
-title: Marta Marchiori Manerba
-author: Marta Marchiori Manerba
-url: "https://martamarchiori.github.io"
-baseurl: ""
+title: Little corner
+url: #"https://martamarchiori.github.io"
+baseurl: #"https://martamarchiori.github.io"
 tagline: "A CV based website that collect my academic inspirations and experiences"
-description: "Marta Marchiori Manerba — Ph.D. in AI. Research on fairness and explainability in Natural Language Processing, digital discrimination and algorithmic bias."
+description: "A CV based website that collect my academic inspirations and experiences"
 google_site_verification: "eLQAL9-dHJOZyajbH0VuBMlx-iUPr4eNaSnYBJplkWM"
-
-# Default preview image when the site is shared on social media
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: "/profile_pict_web.webp"
 social:
-  name: Marta Marchiori Manerba
+  name: Marta Marchiori Manerba 
   links:
     - https://twitter.com/Marta_Marchiori
     - https://www.facebook.com/marta.b.marchiori/
@@ -23,22 +15,13 @@ twitter:
   username: Marta_Marchiori
 
 markdown: kramdown
+#ins_logo: "./bits-logo.png"
 
 tracking_id: #
 
-# Links shown in the footer
-footer_links:
-  - name: "Bluesky"
-    link: "https://bsky.app/profile/martamarchiori.bsky.social"
-  - name: "LinkedIn"
-    link: "https://www.linkedin.com/in/marta-marchiori-manerba/"
-  - name: "GitHub"
-    link: "https://github.com/MartaMarchiori"
-  - name: "Twitter"
-    link: "https://twitter.com/Marta_Marchiori"
-
-footer_credit_url: "https://github.com/ankitsultana/researcher"
-footer_credit_text: "Built on Researcher by Ankit Sultana"
+footer: yes
+footer_url: "https://github.com/ankitsultana"
+footer_text: "Page design by Ankit Sultana"
 
 sass:
     style: compressed
@@ -47,19 +30,12 @@ sass:
 plugins:
   - jekyll-seo-tag
 
-# Navigation. `id` must match the `nav` value in a page's front matter
-# so the current page is highlighted.
 nav:
  - name: "About"
-   id: "about"
-   link: "/"
+   link: "https://martamarchiori.github.io/"
  #- name: "Master's Projects"
- #  id: "projects"
- #  link: "/projects"
+ #  link: "projects"
  - name: "CV"
-   id: "cv"
-   link: "/CV.pdf"
-   external: true
+   link: "CV.pdf"
  - name: "Contacts"
-   id: "contacts"
-   link: "/contact"
+   link: "contact"
