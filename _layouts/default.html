@@ -1,99 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
-    <link rel="icon" href="icon.png" type="image/icon type">
-    <title>Marta Marchiori</title>
-    
-    <meta name="google-site-verification" content="eLQAL9-dHJOZyajbH0VuBMlx-iUPr4eNaSnYBJplkWM" />
-    
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
-    <meta name="author" content="{{ site.author }}">
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+    <link rel="icon" type="image/png" sizes="512x512" href="{{ '/favicon.png' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}">
     {% if page.url == "/404.html" %}
         <meta http-equiv="refresh" content="5; url=/">
     {% endif %}
-    {% if page.description %}
-        {% assign desc = page.description %}
-    {% else %}
-        {% assign desc = site.description %}
-    {% endif %}
-    {% if page.url %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% else %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% endif %}
-    <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    {% if site.favicon %}
-        <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
-        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
-    {% endif %}
-    {% if site.twitter_username %}
-        <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
-    {% endif %}
-    <!-- Facebook Open Graph -->
-    <meta name="og:description" content="{{ desc }}">
-    <meta name="og:title" content="{{ site.title }}">
-    <meta name="og:url" content="{{ url }}">
-    <meta name="og:type" content="article">
-    {% if site.og_image %}
-        <meta name="og:image" content="{{ site.og_image }}">
-    {% endif %}
-    {% if site.facebook_id %}
-        <meta name="fb:admins" content="{{ site.facebook_id }}">
-    {% endif %}
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ desc }}">
-    <meta name="twitter:url" content="{{ url }}">
-    {% if site.twitter_image %}
-        <meta name="twitter:image" content="{{ site.twitter_image }}">
-    {% else %}
-        <meta name="twitter:image" content="{{ site.profile_picture }}">
-    {% endif %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+
     {% seo %}
 </head>
 <body>
-    <div class="wrapper">
-        <div class="navbar container">
-            {% if site.ins_logo %}
-                <img id="ins-logo" src="{{ site.ins_logo }}" />
-            {% endif %}
-            <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
-            <ul id="navlist" class="alignable pull-right navbar-ul">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="site-name" href="{{ '/' | relative_url }}">{{ site.author }}</a>
+            <nav class="site-nav" aria-label="Main">
                 {% for x in site.nav %}
-                    {% if x.name == "Resume" %}
-                        <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
-                    {% else %}
-                        <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
-                    {% endif %}
-                    {% if forloop.last == false %}
-                        /
-                    {% endif %}
-                        </li>
+                    <a href="{{ x.link | relative_url }}"
+                       {% if x.external %}target="_blank" rel="noopener"{% endif %}
+                       {% if page.nav == x.id %}class="is-active" aria-current="page"{% endif %}>{{ x.name }}</a>
                 {% endfor %}
-            </ul>
+            </nav>
         </div>
-        <div style="clear:both"></div>
-        <hr>
-        {% if page.is_contact == true %}
-            <div class="container content contact">
-        {% else %}
-            <div class="container content">
-        {% endif %}
-                {{ content }}
-                {% if site.footer == true %}
-                    <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
-                    </p>
-                {% endif %}
-            </div>
-    </div>
+    </header>
+
+    <main id="main" class="container">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-name">{{ site.author }}</p>
+            <p class="footer-credit">
+                &copy; {{ site.time | date: "%Y" }} &middot;
+                <a href="{{ site.footer_credit_url }}" target="_blank" rel="noopener">{{ site.footer_credit_text }}</a>
+            </p>
+        </div>
+    </footer>
+
     {% if site.tracking_id %}
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -105,5 +59,4 @@
         </script>
     {% endif %}
 </body>
-<footer>
-</footer>
+</html>

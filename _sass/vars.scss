@@ -2,13 +2,26 @@
  * Customization Variables
  */
 
-$accent: #56C1B6;
-$image-size: 85px;
+// Colours (sage, from the profile photo)
+$bg:          #f7f8f5;   // off-white with a hint of green
+$ink:         #1b2321;   // near-black, slightly green
+$muted:       #5d6b67;   // sage-grey secondary text
+$rule:        #cfd8d3;   // hairlines
+$sage:        #93a5a1;   // photo background sage
+$sage-light:  #e4ebe7;   // tinted bands
+$olive:       #4f6a2c;   // sweater green
+$accent:      #3f5e55;   // deep sage (links)
+$accent-soft: #d6e1db;
 
-/*
- * Build Variables, don't touch
- */
+// Type
+$display: "Space Mono", "Helvetica Neue", Arial, sans-serif;   // name, headings, pills, link lists
+$text:    "DM Sans", "Helvetica Neue", Arial, sans-serif;      // body text, labels, menu
 
-$max-width: 700px;
-$med-width: 600px;
-$small-width: 480px;
+// Layout
+$max-width: 1040px;   // header, footer, hero
+$label-col: 200px;    // left column with section labels
+$gutter:    clamp(20px, 5vw, 48px);
+
+// Breakpoints
+$bp-medium: 820px;
+$bp-small:  560px;

@@ -1,60 +1,272 @@
 @import "vars";
 
-.content {
-    a:hover {
-        text-decoration: underline;
+/*
+ * Headings & text
+ */
+
+h1, h2, h3, h4 {
+    font-family: $display;
+    font-weight: 500;
+    color: $ink;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin: 0 0 .5em;
+}
+h1 { font-size: clamp(48px, 7.5vw, 84px); letter-spacing: -0.035em; line-height: 1; }
+h2 { font-size: 30px; }
+h3 { font-size: 23px; }
+p  { margin: 0 0 1.1em; }
+p:last-child { margin-bottom: 0; }
+
+.muted { color: $muted; }
+
+/* Small uppercase label (dates, section names, roles) */
+.label {
+    display: block;
+    font-family: $text;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $muted;
+    line-height: 1.4;
+}
+
+/*
+ * Hero (home page)
+ */
+
+.hero-band {
+    margin: 0 calc(50% - 50vw);   // full-bleed band
+    background: $sage-light;
+    border-bottom: 1px solid $rule;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 48px;
+    padding: 88px $gutter 96px;
+}
+.hero h1 { margin: 18px 0 26px; }
+.hero h1 {
+    padding-bottom: 28px;
+    border-bottom: 1.5px solid $ink;
+}
+.hero-roles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+    li {
+        font-family: $display;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        line-height: 1;
+        padding: 11px 18px;
+        border: 1.5px solid $sage;
+        border-radius: 999px;
+        background: #fff;
+        &:nth-child(2) { border-color: $olive; }
+        &:nth-child(3) { border-color: $accent; }
     }
-    ol {
-        counter-reset: list;
+    .hero-mark {
+        width: 46px; height: 46px; padding: 0;
+        display: grid; place-items: center;
+        border: 0; border-radius: 50%;
+        background: $accent; color: #fff;
+        font-size: 30px; line-height: 1;
     }
-    ol > li {
-        list-style-position: none;
-        position: relative;
-        list-style: none;
-        margin-top: 5px;
-        margin-bottom: 5px;
+}
+.hero-tagline {
+    max-width: 560px;
+    font-size: 19px;
+    line-height: 1.6;
+    margin: 0;
+}
+.hero-portrait {
+    width: clamp(180px, 26vw, 300px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    display: block;
+}
+
+/*
+ * Two-column sections: label on the left, content on the right
+ */
+
+.section {
+    display: grid;
+    grid-template-columns: $label-col 1fr;
+    gap: 32px;
+    padding: 64px 0;
+    border-bottom: 1px solid $rule;
+    &:last-of-type { border-bottom: 0; }
+}
+.section > .label { padding-top: 7px; }
+.section-body { max-width: 680px; }
+.section-body > p:first-child { font-size: 19px; }
+.section-body p { letter-spacing: 0.01em; }
+
+/* Page title for inner pages */
+.page-head {
+    padding: 80px 0 24px;
+    h1 { font-size: clamp(40px, 6vw, 60px); margin: 0; }
+}
+
+/* Tag list (research interests) */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        font-size: 14px;
+        line-height: 1;
+        padding: 9px 14px;
+        border: 1px solid $sage;
+        border-radius: 999px;
+        background: $sage-light;
+        color: $ink;
     }
-    ul > li {
-        margin: 5px 0 5px 0;
+}
+
+/* Stacked entries (memberships, projects, contacts) */
+.entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.entry {
+    padding: 0 0 28px;
+    margin: 0 0 28px;
+    border-bottom: 1px solid $rule;
+    &:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    h3 { margin: 4px 0 8px; }
+    h3 a { color: $ink; text-decoration-color: rgba($ink, .25); }
+    h3 a:hover { color: $accent; }
+    p { color: $muted; margin: 0; }
+}
+
+/* Simple link list in two columns */
+.link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 40px;
+    li {
+        break-inside: avoid;
+        padding: 12px 0;
+        border-bottom: 1px solid $rule;
     }
-    ul {
-        padding: 0 20px 0 20px;;
+    a {
+        font-family: $display;
+        font-size: 19px;
+        font-weight: 500;
+        color: $ink;
+        text-decoration: none;
+        &::after { content: " \2197"; font-family: $text; font-size: 14px; color: $muted; }
+        &:hover { color: $accent; }
     }
-    ol {
-        padding: 0 30px 0 30px;
+}
+
+/* Sage block: communities, people & projects that inspire me */
+.inspire {
+    margin: 64px 0 0;
+    background: $sage-light;
+    border-radius: 24px;
+    padding: 56px clamp(24px, 5vw, 64px) 60px;
+    > .label { margin-bottom: 24px; }
+}
+.inspire-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 36px;
+    li {
+        border-top: 1px solid #c3cfc9;
+        padding: 16px 0;
+        line-height: 1.3;
     }
-    ol > li:before {
-        content: "[" counter(list, decimal) "] ";
-        counter-increment: list;
-        position: absolute;
-        left: -30px;
+    a {
+        font-family: $display;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        color: $ink;
+        text-decoration: none;
+        &::after { content: " \2197"; font-size: 14px; color: $muted; }
+        &:hover { color: $accent; }
     }
+}
+
+/* Contacts (bottom of the home page) */
+.contacts {
+    scroll-margin-top: 24px;
+    margin-top: 64px;
+    border-top: 1px solid $rule;
+    .link-list { margin-top: 8px; }
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 40px;
+    margin-bottom: 40px;
+    p { font-size: 19px; margin: 8px 0 0; }
+}
+
+/*
+ * Plain markdown content (any page not using the components above)
+ */
+
+.prose {
+    max-width: 680px;
+    ul, ol { padding-left: 1.2em; }
+    li { margin: 6px 0; }
     blockquote {
-        //border: 1px solid black;
-        border-left: 5px solid #333333;
-        margin: 20px 0 20px 0;
-        padding: 2px 8px 2px 8px;
+        border-left: 2px solid $accent;
+        margin: 28px 0;
+        padding: 2px 0 2px 20px;
+        font-family: $display;
         font-style: italic;
+        font-size: 21px;
     }
-    .profile-picture {
-        height: $image-size;
-        width: $image-size;
-        position: relative;
-        margin: -10px 0 0 15px;
-        float: right;
-        border-radius: 50%;
-        p & {
-            padding: 0;
-            margin: 0;
-        }
-        @media (max-width: $small-width) {
-            img {
-                margin-top: -5px;
-            }
-        }
+}
+
+/*
+ * Responsive
+ */
+
+@media (max-width: $bp-medium) {
+    .section { grid-template-columns: 1fr; gap: 16px; padding: 48px 0; }
+    .section > .label { padding-top: 0; }
+    .link-list { columns: 1; }
+    .inspire-list { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: $bp-small) {
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 48px $gutter 56px;
     }
-    img {
-        text-align: center;
-        width: 100%;
-    }
+    .hero-portrait { order: -1; width: 140px; }
+    .hero h1 { margin: 12px 0 20px; }
+    .hero-roles li { font-size: 13px; padding: 9px 14px; }
+    .hero-tagline, .section-body > p:first-child { font-size: 17px; }
+    h2 { font-size: 26px; }
+    h3 { font-size: 21px; }
+    .page-head { padding: 48px 0 8px; }
+    .inspire { padding: 40px 24px 44px; }
+    .inspire-list { grid-template-columns: 1fr; }
+    .contact-grid { grid-template-columns: 1fr; }
 }

@@ -1,11 +1,19 @@
-title: Little corner
-url: #"https://martamarchiori.github.io"
-baseurl: #"https://martamarchiori.github.io"
+title: Marta Marchiori Manerba
+author: Marta Marchiori Manerba
+url: "https://martamarchiori.github.io"
+baseurl: ""
 tagline: "A CV based website that collect my academic inspirations and experiences"
-description: "A CV based website that collect my academic inspirations and experiences"
+description: "Marta Marchiori Manerba — Ph.D. in AI. Research on fairness and explainability in Natural Language Processing, digital discrimination and algorithmic bias."
 google_site_verification: "eLQAL9-dHJOZyajbH0VuBMlx-iUPr4eNaSnYBJplkWM"
+
+# Default preview image when the site is shared on social media
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/profile_pict_web.webp"
 social:
-  name: Marta Marchiori Manerba 
+  name: Marta Marchiori Manerba
   links:
     - https://twitter.com/Marta_Marchiori
     - https://www.facebook.com/marta.b.marchiori/
@@ -15,13 +23,11 @@ twitter:
   username: Marta_Marchiori
 
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
 
 tracking_id: #
 
-footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_credit_url: "https://github.com/ankitsultana/researcher"
+footer_credit_text: "Built on Researcher by Ankit Sultana"
 
 sass:
     style: compressed
@@ -30,12 +36,19 @@ sass:
 plugins:
   - jekyll-seo-tag
 
+# Navigation. `id` must match the `nav` value in a page's front matter
+# so the current page is highlighted. Contacts scroll to the bottom of the home page.
 nav:
  - name: "About"
-   link: "https://martamarchiori.github.io/"
+   id: "about"
+   link: "/"
  #- name: "Master's Projects"
- #  link: "projects"
+ #  id: "projects"
+ #  link: "/projects"
  - name: "CV"
-   link: "CV.pdf"
+   id: "cv"
+   link: "/CV.pdf"
+   external: true
  - name: "Contacts"
-   link: "contact"
+   id: "contacts"
+   link: "/#contacts"
