@@ -13,6 +13,7 @@ nav: about
       <li>Socially Aware NLP</li>
       <li>Sociotechnical Safety</li>
       <li>Participatory Design</li>
+      <li>Counterspeech</li>
       <li>LT-Assisted Emotional Support</li>
     </ul>
     <p class="hero-tagline">Researching how language technologies, from the training data to the contexts where they are deployed, affect the communities they reach, and how to audit and evaluate them from those communities' perspective.</p>
@@ -25,8 +26,8 @@ nav: about
   <span class="label">About</span>
   <div class="section-body">
     <p>Hi! 🎈 I am Marta Marchiori Manerba, she/her :)</p>
-    <p>I am currently a Postdoctoral Researcher in the [Content-Centered Computing Group](https://ccc.di.unito.it/) at the [Department of Computer Science](https://www.di.unito.it/) of the University of Turin (Italy). Within an Amazon-funded project, I work on socially impactful language generation, focusing on counterspeech against online gender-based violence, in close collaboration with operators from anti-violence centres.</p> 
-    <p>I hold a Ph.D. in AI, which I obtained at the [CS Department](https://di.unipi.it/en/) of the University of Pisa (Italy). The Ph.D. was conducted within the national programme under the area [AI & Society](https://phd-ai-society.di.unipi.it/) 🤖 Before that, I was a Graduate student in [Digital Humanities - Language Technologies](https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/).</p>
+    <p>I am currently a Postdoctoral Researcher in the <a href="https://ccc.di.unito.it/" target="_blank" rel="noopener">Content-Centered Computing Group</a> at the <a href="https://www.di.unito.it/" target="_blank" rel="noopener">Department of Computer Science</a> of the University of Turin (Italy). Within an Amazon-funded project, I work on socially impactful language generation, focusing on counterspeech against online gender-based violence, in close collaboration with operators from anti-violence centres.</p> 
+    <p>I hold a Ph.D. in AI, which I obtained at the <a href="https://di.unipi.it/en/" target="_blank" rel="noopener">CS Department</a> of the University of Pisa (Italy). The Ph.D. was conducted within the national programme under the area <a href="https://phd-ai-society.di.unipi.it/" target="_blank" rel="noopener">AI & Society</a> 🤖 Before that, I was a Graduate student in <a href="https://infouma.fileli.unipi.it/laurea-magistrale/percorsi-formativi/tlin/" target="_blank" rel="noopener">Digital Humanities - Language Technologies</a>.</p>
     <p>During my studies, I developed a strong interest in hate speech detection towards minorities in online discourse. My Ph.D. thesis explored the intersection of Fairness and Explainability in Natural Language Processing, developing methodologies for fairness auditing, explainability, and debiasing along the whole pipeline of a language model: from data mitigation strategies that rebalance demographic groups in training data, to explainability-based protocols that uncover discrimination in task-specific classifiers such as abusive language detectors, to probing methods, benchmarks, and resources for detecting representational harms in pre-trained models.</p>
  </div>
 </section>
@@ -86,7 +87,7 @@ nav: about
       </div>
     </div>
     <span class="label">Social</span>
-    <ul class="link-list">
+    <ul class="link-list link-list--row">
       <li><a href="https://twitter.com/Marta_Marchiori" target="_blank" rel="noopener">Twitter</a></li>
       <li><a href="https://bsky.app/profile/martamarchiori.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
       <li><a href="https://www.linkedin.com/in/marta-marchiori-manerba/" target="_blank" rel="noopener">LinkedIn</a></li>

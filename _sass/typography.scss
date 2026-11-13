@@ -181,30 +181,29 @@ p:last-child { margin-bottom: 0; }
 .inspire {
     margin: 64px 0 0;
     background: $sage-light;
-    border-radius: 24px;
-    padding: 56px clamp(24px, 5vw, 64px) 60px;
-    > .label { margin-bottom: 24px; }
+    border-radius: 20px;
+    padding: 36px clamp(24px, 5vw, 48px) 40px;
+    > .label { margin-bottom: 16px; }
 }
 .inspire-list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0 36px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 28px;
     li {
         border-top: 1px solid #c3cfc9;
-        padding: 16px 0;
+        padding: 10px 0;
         line-height: 1.3;
     }
     a {
         font-family: $display;
-        font-size: 20px;
-        font-weight: 500;
-        letter-spacing: -0.01em;
+        font-size: 15px;
+        font-weight: 400;
         color: $ink;
         text-decoration: none;
-        &::after { content: " \2197"; font-size: 14px; color: $muted; }
+        &::after { content: " \2197"; font-size: 12px; color: $muted; }
         &:hover { color: $accent; }
     }
 }
@@ -269,4 +268,13 @@ p:last-child { margin-bottom: 0; }
     .inspire { padding: 40px 24px 44px; }
     .inspire-list { grid-template-columns: 1fr; }
     .contact-grid { grid-template-columns: 1fr; }
+}
+
+/* Social links on a single row (contacts) */
+.link-list.link-list--row {
+    columns: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 32px;
+    li { flex: 1 1 0; min-width: max-content; }
 }
