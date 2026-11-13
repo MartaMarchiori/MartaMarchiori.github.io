@@ -1,22 +1,34 @@
 ---
 layout: default
-is_contact: true
+title: Contacts
+nav: contacts
 ---
 
-* Email: marta.marchiori[at]di.unipi.it
+<header class="page-head">
+  <h1>Contacts</h1>
+</header>
 
----
+<section class="section">
+  <span class="label">Email</span>
+  <div class="section-body">
+    <p>marta.marchiori[at]di.unipi.it</p>
+  </div>
+</section>
 
-## Based in
+<section class="section">
+  <span class="label">Based in</span>
+  <div class="section-body">
+    <p>Pisa &amp; Turin<br><span class="muted">Italy</span></p>
+  </div>
+</section>
 
-> Pisa & Turin
->
-> Italy
-
----
-
-## Social
-
-1. <a href="https://twitter.com/Marta_Marchiori" target="_blank">Twitter</a>
-2. <a href="https://bsky.app/profile/martamarchiori.bsky.social" target="_blank">Bluesky</a>
-3. <a href="https://www.linkedin.com/in/marta-marchiori-manerba/" target="_blank">LinkedIn</a>
+<section class="section">
+  <span class="label">Social</span>
+  <div class="section-body">
+    <ul class="link-list">
+      <li><a href="https://twitter.com/Marta_Marchiori" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://bsky.app/profile/martamarchiori.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+      <li><a href="https://www.linkedin.com/in/marta-marchiori-manerba/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </div>
+</section>

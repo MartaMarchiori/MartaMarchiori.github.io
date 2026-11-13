@@ -1,60 +1,209 @@
 @import "vars";
 
-.content {
-    a:hover {
-        text-decoration: underline;
-    }
-    ol {
-        counter-reset: list;
-    }
-    ol > li {
-        list-style-position: none;
-        position: relative;
-        list-style: none;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    ul > li {
-        margin: 5px 0 5px 0;
-    }
-    ul {
-        padding: 0 20px 0 20px;;
-    }
-    ol {
-        padding: 0 30px 0 30px;
-    }
-    ol > li:before {
-        content: "[" counter(list, decimal) "] ";
-        counter-increment: list;
-        position: absolute;
-        left: -30px;
-    }
-    blockquote {
-        //border: 1px solid black;
-        border-left: 5px solid #333333;
-        margin: 20px 0 20px 0;
-        padding: 2px 8px 2px 8px;
+/*
+ * Headings & text
+ */
+
+h1, h2, h3, h4 {
+    font-family: $serif;
+    font-weight: 400;
+    color: $ink;
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+    margin: 0 0 .5em;
+}
+h1 { font-size: clamp(44px, 7vw, 76px); letter-spacing: -0.025em; line-height: 1.02; }
+h2 { font-size: 30px; }
+h3 { font-size: 23px; }
+p  { margin: 0 0 1.1em; }
+p:last-child { margin-bottom: 0; }
+
+.muted { color: $muted; }
+
+/* Small uppercase label (dates, section names, roles) */
+.label {
+    display: block;
+    font-family: $sans;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $muted;
+    line-height: 1.4;
+}
+
+/*
+ * Hero (home page)
+ */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 48px;
+    padding: 88px 0 96px;
+    border-bottom: 1px solid $rule;
+}
+.hero h1 { margin: 18px 0 26px; }
+.hero-roles {
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+    li {
+        font-family: $serif;
         font-style: italic;
+        font-size: 22px;
+        line-height: 1.45;
+        color: $muted;
     }
-    .profile-picture {
-        height: $image-size;
-        width: $image-size;
-        position: relative;
-        margin: -10px 0 0 15px;
-        float: right;
-        border-radius: 50%;
-        p & {
-            padding: 0;
-            margin: 0;
-        }
-        @media (max-width: $small-width) {
-            img {
-                margin-top: -5px;
-            }
-        }
+}
+.hero-tagline {
+    max-width: 560px;
+    font-size: 19px;
+    line-height: 1.6;
+    margin: 0;
+}
+.hero-portrait {
+    width: clamp(180px, 26vw, 300px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    display: block;
+}
+
+/*
+ * Two-column sections: label on the left, content on the right
+ */
+
+.section {
+    display: grid;
+    grid-template-columns: $label-col 1fr;
+    gap: 32px;
+    padding: 64px 0;
+    border-bottom: 1px solid $rule;
+    &:last-of-type { border-bottom: 0; }
+}
+.section > .label { padding-top: 7px; }
+.section-body { max-width: 680px; }
+.section-body > p:first-child { font-size: 19px; }
+
+/* Page title for inner pages */
+.page-head {
+    padding: 80px 0 24px;
+    h1 { font-size: clamp(40px, 6vw, 60px); margin: 0; }
+}
+
+/* Tag list (research interests) */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        font-size: 14px;
+        line-height: 1;
+        padding: 9px 14px;
+        border: 1px solid $rule;
+        border-radius: 999px;
+        background: #fff;
     }
-    img {
-        text-align: center;
-        width: 100%;
+}
+
+/* Stacked entries (memberships, projects, contacts) */
+.entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.entry {
+    padding: 0 0 28px;
+    margin: 0 0 28px;
+    border-bottom: 1px solid $rule;
+    &:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    h3 { margin: 4px 0 8px; }
+    h3 a { color: $ink; text-decoration-color: rgba($ink, .25); }
+    h3 a:hover { color: $accent; }
+    p { color: $muted; margin: 0; }
+}
+
+/* Simple link list in two columns */
+.link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 40px;
+    li {
+        break-inside: avoid;
+        padding: 12px 0;
+        border-bottom: 1px solid $rule;
     }
+    a {
+        font-family: $serif;
+        font-size: 20px;
+        color: $ink;
+        text-decoration: none;
+        &::after { content: " \2197"; font-family: $sans; font-size: 14px; color: $muted; }
+        &:hover { color: $accent; }
+    }
+}
+
+/* Closing quote */
+.quote {
+    margin: 0;
+    padding: 96px 0 24px;
+    text-align: center;
+    p {
+        font-family: $serif;
+        font-style: italic;
+        font-size: clamp(30px, 4.5vw, 44px);
+        line-height: 1.2;
+        margin: 0 0 14px;
+    }
+    cite { font-style: normal; }
+}
+
+/*
+ * Plain markdown content (any page not using the components above)
+ */
+
+.prose {
+    max-width: 680px;
+    ul, ol { padding-left: 1.2em; }
+    li { margin: 6px 0; }
+    blockquote {
+        border-left: 2px solid $accent;
+        margin: 28px 0;
+        padding: 2px 0 2px 20px;
+        font-family: $serif;
+        font-style: italic;
+        font-size: 21px;
+    }
+}
+
+/*
+ * Responsive
+ */
+
+@media (max-width: $bp-medium) {
+    .section { grid-template-columns: 1fr; gap: 16px; padding: 48px 0; }
+    .section > .label { padding-top: 0; }
+    .link-list { columns: 1; }
+}
+
+@media (max-width: $bp-small) {
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 48px 0 56px;
+    }
+    .hero-portrait { order: -1; width: 140px; }
+    .hero h1 { margin: 12px 0 20px; }
+    .hero-roles li { font-size: 19px; }
+    .hero-tagline, .section-body > p:first-child { font-size: 17px; }
+    h2 { font-size: 26px; }
+    h3 { font-size: 21px; }
+    .page-head { padding: 48px 0 8px; }
+    .quote { padding-top: 64px; }
 }
